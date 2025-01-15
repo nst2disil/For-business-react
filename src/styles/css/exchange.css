@@ -1,0 +1,22 @@
+.exchange {
+  margin-bottom: 160px;
+  padding: 0px 72px;
+}
+.exchange__title {
+  padding-bottom: 40px;
+  text-align: center;
+}
+.exchange__cards {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.exchange__btn {
+  padding: 16px;
+  width: 100%;
+  gap: 6px;
+  border-radius: 8px;
+  background-color: var(--blue);
+  color: var(--white);
+}/*# sourceMappingURL=exchange.css.map */

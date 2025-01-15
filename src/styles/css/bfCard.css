@@ -1,0 +1,26 @@
+.card {
+  width: 556px;
+  height: 192px;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  background-color: var(--light-grey);
+  padding: 40px;
+  border: 1px solid var(--grey);
+  border-radius: 16px;
+}
+
+.card__img {
+  padding: 15px;
+  background-color: var(--light-blue);
+  border-radius: 5.07px;
+}
+
+.card-ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.card__title {
+  padding-bottom: 12px;
+}/*# sourceMappingURL=bfCard.css.map */

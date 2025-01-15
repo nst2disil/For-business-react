@@ -1,0 +1,47 @@
+.hero {
+    margin-bottom: 160px;
+
+    &__content {
+        display: flex;
+        column-gap: 146px;
+        padding: 72px 80px 115px 72px;
+        background-image: url('./../../img/bg.jpg');
+    }
+
+    &__title {
+        max-width: 558px;
+        margin-bottom: 24px;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 68px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+        span {
+            color: var(--blue);
+        }
+    }
+
+    &__desc {
+        margin-bottom: 24px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    &__payment {
+        ul {
+            display: flex;
+            column-gap: 24px;
+            align-items: center;
+        }
+
+        a {
+            text-align: left;
+        }
+    }
+}

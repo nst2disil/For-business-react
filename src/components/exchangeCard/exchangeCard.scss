@@ -1,0 +1,39 @@
+.ex-card {
+    background-color: var(--light-grey);
+    padding: 24px 24px 0px 24px;
+    border-radius: 24px;
+
+    &__text {
+        text-align: center;
+    }
+
+    &__title {
+        padding-bottom: 16px;
+    }
+
+    &__desc {
+        padding-bottom: 40px;
+    }
+
+    &__picture {
+        border-radius: 16px;
+        background: linear-gradient(181.82deg, rgba(113, 174, 234, 0.4) -84.81%, rgba(145, 200, 255, 0) 99.17%);
+    }
+
+    &__img {
+        &.join-us-class {
+            padding: 23px 24px 0px 23px;
+            height: 213px;
+        }
+
+        &.exchange-class {
+            padding: 27px 22px 0px 23px;
+            height: 213px;
+        }
+
+        &.enjoy-class {
+            padding: 27px 25.26px 0px 26px;
+            height: 213px;
+        }
+    }
+}

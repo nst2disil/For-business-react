@@ -1,0 +1,25 @@
+.exchange {
+    margin-bottom: 160px;
+    padding: 0px 72px;
+
+    &__title {
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    
+    &__cards {
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+    }
+    
+    &__btn {
+        padding: 16px;
+        width: 100%;
+        gap: 6px;
+        border-radius: 8px;
+        background-color: var(--blue);
+        color: var(--white);
+    }
+}

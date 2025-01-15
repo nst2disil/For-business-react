@@ -1,0 +1,48 @@
+.bf-card {
+    width: calc(50% - 12px);
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    background-color: var(--light-grey);
+    padding: 40px;
+    border: 1px solid var(--grey);
+    border-radius: 16px;
+    opacity: 0;
+    transition: opacity 3s, transform 3s;
+
+    &__img {
+        width: 76px;
+        height: 76px;
+        padding: 15px;
+        border-radius: 5.07px;
+        border: 1.27px;
+        background-color: var(--light-blue);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__title {
+        padding-bottom: 12px;
+    }
+
+    &.visible {
+        opacity: 1;
+    }
+
+    &.left {
+        transform: translateX(-100%);
+    }
+
+    &.left.visible {
+        transform: translateX(0);
+    }
+
+    &.right {
+        transform: translateX(100%);
+    }
+
+    &.right.visible {
+        transform: translateX(0);
+    }
+}

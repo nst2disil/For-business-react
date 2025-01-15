@@ -1,0 +1,59 @@
+.trust {
+    margin-bottom: 160px;
+    padding: 72px 72px;
+    background-color: var(--light-grey);
+
+    &__title {
+        padding-bottom: 16px;
+    }
+
+    &__desc {
+        opacity: 0.8;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: var(--light-black);
+    }
+
+    &__text {
+        padding-bottom: 40px;
+    }
+
+    &__list {
+        padding-bottom: 40px;
+    
+        ul {
+            display: flex;
+            column-gap: 16px;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 148px;
+            width: 160px;
+            padding: 24px;
+            gap: 16px;
+            border-radius: 16px;
+            background-color: var(--white);
+        }
+    }
+
+    &__join {
+        display: flex;
+        justify-content: center;
+    }
+    
+    &__join-btn {
+        padding: 12px 44px;
+        gap: 6px;
+        border-radius: 8px;
+        background-color: var(--blue);
+        color: var(--white);
+    }
+}

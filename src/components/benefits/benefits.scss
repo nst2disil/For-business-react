@@ -1,0 +1,14 @@
+.benefits {
+    margin-bottom: 160px;
+    padding: 0px 72px;
+
+    &__title {
+        padding-bottom: 40px;
+    }
+
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+}
